@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-image: url(../images/background.png);
+}
+
+img { 
+	height: 150px;
+	width: 150px;
+}
+
+.btn {
+	background-color: blue;
+	border-color: #fff;
+}
+
+.gifDiv{
+	float: left;
+	margin: 3px;
+}
+
+.container {
+	background-color: yellowgreen;
+	
+	padding: 20px;
+}
+.container, .jumbotron {
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+.jumbotron {
+	background-color: blue;
+}
+
+.jumbotron .h1, .jumbotron h1, body, img, .row, #gifsView {
+	text-align: center;
+}
+

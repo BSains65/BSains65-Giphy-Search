@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<title>GifTastic</title>
+</head>
+
+
+<body>
+	<!-- Header  -->
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Cartoon Character Search</h1>
+		</div>
+	</div>
+	<!-- Buttons  -->
+	<div id="gifButtonsView" class="container">
+	</div>
+	<!-- Main Container  -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9" style="margin:auto">
+				<!-- Gifs  -->
+				<div id="gifsView"></div>
+			</div>
+		</div>
+		<!-- Character Submission Form  -->
+		<div class="row">
+			<div class="col">
+				<form id="gif-form" role="form">
+
+					<div class="form-group">
+						<h2 for="cartoonCharacter-input">Add Your Favorite Cartoon Characters</h2>
+						<input type="text" id="cartoonCharacter-input">
+					</div>
+					<input id="addGif" type="submit" value="Add Character" class="btn btn-primary">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+		</script>
+		<script type="text/javascript" src="./assets/javascript/app.js"></script>
+
+</body>
+
+</html>
