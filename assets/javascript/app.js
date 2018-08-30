@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	//array of characters new characters pushed into this array;
-	var characters = ["Bugs Bunny", "Ed, Ed, and Eddie", "Dexter's Laboratory", "Courage the Cowardly Dog"];
+	var characters = ["Bugs Bunny", "Ed, Ed, and Eddie", "Dexter's Laboratory", "Courage the Cowardly"];
 
 
 	// Creating Functions & Methods
@@ -35,8 +35,7 @@ $(document).ready(function () {
 	// Function displays all of the gifs
 	function displayGifs() {
 		var character = $(this).attr("data-name");
-		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-		character + "&api_key=dc6zaTOxFJmzC&limit=10";
+		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + character + "&api_key=DPpqRCJXO8vBLirf55m9VTMFQMw5b1Pz&limit=10";
 		console.log(queryURL); // displays constructed url
 		$.ajax({
 			url: queryURL,
